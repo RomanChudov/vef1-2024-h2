@@ -10,5 +10,12 @@
   },
   "devDependencies": {
     "vite": "^5.4.10"
-  }
+  },
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
