@@ -26,3 +26,7 @@ async function render(root, querystring) {
 const root = document.querySelector('#app');
 
 render(root, window.location.search);
+
+
+
+// ygraiuaejnfkljaæLWD'Æ´ÆLÆKLKJJGHGSDFKASJL
