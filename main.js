@@ -4,7 +4,7 @@ import { renderIndexPage } from './lib/pages/index-page.js';
 import { renderSubpage } from './lib/pages/sub-page.js';
 
 async function render(root, querystring) {
-  const mainIndexJson = await fetcher('data/index.json');
+  const mainIndexJson = await fetcher('public/data/index.json');
 
   const params = new URLSearchParams(querystring);
   const type = params.get('type');
