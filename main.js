@@ -6,13 +6,13 @@ import { renderNavigation } from './lib/components/navigation.js';
 import { el } from './lib/elements.js';
 
 async function render(root, querystring) {
-  const mainIndexJson = await fetcher('data/index.json');
+  const mainIndexJson = await fetcher('public/data/index.json');
 
   const params = new URLSearchParams(querystring);
   const type = params.get('type');
-  const content_type = params.get('content');
+  const content = params.get('content');
   
-  console.log(type, content_type);
+  console.log(type, content);
   // Rendera haus með navigation
   const headerElement = el('header', {}, el('h1', {}, mainIndexJson.title));
   headerElement.appendChild(el('p', {}, mainIndexJson.description));
@@ -27,8 +27,8 @@ async function render(root, querystring) {
     if (!mainIndexJson.navigation.find((i) => i.slug === type)) {
       article.appendChild(el('main', {}, el('p', {}, 'Fannst ekki')));
     } else {
-      if (content_type) {
-        renderContentPage(article, type, content_type);
+      if (content) {
+        renderContentPage(article, type, content);
       } else {
         renderSubpage(article, type);
       }
@@ -36,7 +36,7 @@ async function render(root, querystring) {
   }
 // mögulega bæta við hrópmerki seinna
   if (content) {
-    return renderContentPage(root, mainIndexJson);
+    return renderContentPage(root, type, content);
   }
 
   renderSubpage(root, mainIndexJson, type);
@@ -45,7 +45,7 @@ async function render(root, querystring) {
 }
 
 const root = document.querySelector('#app');
-
+console.log(window.location.search)
 render(root, window.location.search);
 
 

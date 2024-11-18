@@ -100,3 +100,17 @@ button {
   color: white;
   transform: rotateY(180deg);
 }
+
+
+
+
+.quote{
+  color: #bbb;
+  font-style: italic;
+
+}
+
+
+.heading{
+  font-weight: bold
+}
