@@ -15,7 +15,7 @@ async function render(root, querystring) {
   if (!type) {
     return renderIndexPage(root, mainIndexJson);
   }
-
+// mögulega bæta við hrópmerki seinna
   if (content) {
     return renderContentPage(root, mainIndexJson);
   }
