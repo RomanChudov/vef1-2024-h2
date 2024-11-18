@@ -12,7 +12,7 @@
         },
         {
           "type": "image",
-          "data": "img/strik.jpg",
+          "data": "public/data/img/strik.jpg",
           "caption": "strik.is hannaður með töflum maí 2000, fyrsti vefurinn til að hljóta hin íslensku vefverðlaun."
         },
         {
@@ -21,7 +21,7 @@
         },
         {
           "type": "image",
-          "data": "img/acid.png",
+          "data": "public/data/img/acid.png",
           "caption": "Upprunalega acid prófið."
         },
         {
@@ -76,7 +76,7 @@
         },
         {
           "type": "image",
-          "data": "img/box.png",
+          "data": "public/data/img/box.png",
           "caption": "Útskýringar mynd af box modelinu."
         },
         {

@@ -25,7 +25,7 @@
         },
         {
           "type": "image",
-          "data": "img/server.jpg",
+          "data": "public/data/img/server.jpg",
           "caption": "NeXT tölvan sem Tim Berners-Lee notaði til að skrifa fyrsta vefþjóninn og vafrann. Á tölvu er skrifað „This machine is a server DO NOT POWER DOWN!!“"
         }
       ]

@@ -114,3 +114,12 @@ button {
 .heading{
   font-weight: bold
 }
+
+.code{
+  color: green;
+
+}
+
+.image{
+  max-width: 95%;
+}
