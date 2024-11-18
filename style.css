@@ -54,3 +54,49 @@ button {
   padding-inline: var(--spacing);
   max-width: var(--max-width);
 }
+
+/*  container fyrir flip card */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* container fyrir bak og framhlið */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* flipp! */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* staðsetning fyrir fram- og bakhlið */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* style fyrir framhlið */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* style fyrir bakhlið */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}

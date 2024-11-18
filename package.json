@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "stylelint": "^16.10.0",
+    "stylelint-config-standard": "^36.0.1",
     "vite": "^5.4.10"
   },
   "main": "main.js",
@@ -17,5 +19,8 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "stylelint-config-sass-guidelines": "^12.1.0"
+  }
 }
