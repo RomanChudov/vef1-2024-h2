@@ -2,7 +2,7 @@ import { el } from '../elements.js';
 import { fetcher } from '../fetcher.js';
 
 export async function renderSubpage(root, type) {
-  const contentJsonFile = `public/data/${type}/index.json`;
+  const contentjsonfile = `public/data/${type}/index.json`;
   const contentJson = await fetcher(contentJsonFile);
 
   // Undirtitill síðunnar, t.d. HTML eða CSS

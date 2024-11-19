@@ -9,7 +9,7 @@ import { el } from "../elements.js";
 export async function renderLectures(root, type) {
   console.log("rendering keywords page", root, type);
 
-  const contentJsonFile = `public/data/${type}/lectures.json`;
+  const contentjsonfile = `public/data/${type}/lectures.json`;
   const contentJson = await fetcher(contentJsonFile);
   console.log(contentJson.title);
 
