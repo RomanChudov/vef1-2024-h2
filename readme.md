@@ -24,6 +24,6 @@ Gögn sem voru notuð í útfæra verkefni eru:
 ### Spurningar
 - byrjaði að gera spurningar en þær eru ekki kláraðar
 - questions.js sækir upplýsingar frá json og setur þær upp skv. "accordion" css í style.css
-- óklárað
+- það birtist ekki hvort maður hafi fengið rétt svar, og svörin birtast ekki, en spurningarnar birtast
 
 
