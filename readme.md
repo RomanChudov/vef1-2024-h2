@@ -16,13 +16,13 @@ Gögn sem voru notuð í útfæra verkefni eru:
 Við þurfum að útfæra 3 aukaverkefni meðal við 2-manna hóp
 
 ### Námsefni (2)
--Síðan sækir upplýsingar frá lectures.json og img möppunni
--Síðan birtir allar fyrirlestrar með einni síðu og nöfn á fyrirlestri eru titill h3
--Titill er birt með feirreitað
--Text er birt eins og venjulega texti
--Tilvísun er birt með grátt lit
--Kóði með græna lit
--Mynd eeins og mynd, og listi sem listi
+- Síðan sækir upplýsingar frá lectures.json og img möppunni
+- Síðan birtir allar fyrirlestrar með einni síðu og nöfn á fyrirlestri eru titill h3
+- Titill er birt með feirreitað
+- Text er birt eins og venjulega texti
+- Tilvísun er birt með grátt lit
+- Kóði með græna lit
+- Mynd eeins og mynd, og listi sem listi
 
 ### Flachcards/skilgreiningar (1-2)
 
