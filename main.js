@@ -23,13 +23,19 @@ async function render(root, querystring) {
 
   if (!type) {
     renderIndexPage(article, mainIndexJson);
-  } else {
+  }
+
+ else {
     if (!mainIndexJson.navigation.find((i) => i.slug === type)) {
       article.appendChild(el("main", {}, el("p", {}, "Fannst ekki")));
-    } else {
+    }
+
+ else {
       if (content) {
         renderContentPage(article, type, content);
-      } else {
+      }
+
+ else {
         renderSubpage(article, type);
       }
     }
