@@ -8,6 +8,7 @@
     "preview": "vite preview",
     "copy:html": "cpy ./*.html ./build/",
     "copy:css": "cpy ./*.css ./build/",
+    "copy:js": "cpy ./*.js ./build/",
     "copy:js1": "cpy ./public ./build",
     "copy:js2": "cpy ./lib ./build",
     "copy:svg": "cpy ./*.svg ./build/",
