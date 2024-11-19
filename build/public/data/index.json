@@ -1,0 +1,23 @@
+{
+  "title": "Vefforritunarvefurinn",
+  "description": "Efni um vefforritun, sér í lagi HTML, CSS og JavaScript. Veldu hvaða efni þú vilt skoða hér að neðan.",
+  "navigation": [
+    {
+      "title": "Forsíða",
+      "slug": ""
+    },
+    {
+      "title": "Hér geturu lært um HTML!",
+      "slug": "html"
+    },
+    {
+      "title": "Hér geturu lært um CSS!",
+      "slug": "css"
+    },
+    {
+      "title": "JavaScript er erfitt!",
+      "slug": "js"
+    }
+  ],
+  "footer": "Áfram vefforritun!"
+}
